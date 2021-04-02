@@ -6,7 +6,7 @@ The task presented to us for this project was to update and consolidate html and
 2) Ensure the website features continue to work, and fix the ones that are not.
 3) Make changes to the code so that the website complies to accessibility criteria
 
-The updated website can be seen below and found at _____________
+The updated website can be seen below and found at https://lukespang.github.io/HomeWorkWeek1/
 
-<img src="02-Homework/Assets/Webpage1.png">
-<img src="02-Homework/Assets/Webpage2.png">
+<img src="Assets/Webpage1.png">
+<img src="Assets/Webpage2.png">
