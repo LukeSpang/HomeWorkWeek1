@@ -1,0 +1,137 @@
+/*whole page*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+/*header*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    color:#d9dcd6
+}
+/* changed color of seo to contrast with the rest of horiseon*/
+.seo{
+    color:black
+}
+
+
+/*nav bar in header*/
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/*main picture*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/*tells pictures in main box to float left*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/*tells pictures in main box to float right*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* created to combine all h3*/
+h3{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* created to combine all benefit boxes on right side of page*/
+.benefit-box{
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* created to combine image parameters on right side of webpage*/
+#image-set-two{
+    display:block;
+    margin:10px auto;
+    max-width: 150px;
+}
+
+/*created to combine all h2*/
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*created to combine search engine, online reputation, and social media boxes*/
+.main-box {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    font-size: large;   
+}
+
+/*created to combine criteria for main box images*/
+#image-set-one{
+    max-height: 200px;
+}
+
+/*foote*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+
